@@ -1,0 +1,2 @@
+export(extract.contig.data,add.gc)
+import(utils,Biostrings)

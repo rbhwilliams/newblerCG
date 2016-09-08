@@ -1,0 +1,14 @@
+Package: newblerCG
+Type: Package
+Title: Making use of the Newbler 454ContigGraph file
+Version: 1.0
+Author: Rohan Benjamin Hugh Williams
+Depends: R (>= 2.5.0)
+Imports: Biostrings
+Maintainer: Rohan Williams <rbhwilliams@gmail.com>
+Description: This package contains some R functions for making use of
+    the results contained in the Newbler (genome assembler) output file
+    454ContigGraph.txt.
+License: CC0
+LazyData: TRUE
+RoxygenNote: 5.0.1
