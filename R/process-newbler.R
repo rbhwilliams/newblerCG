@@ -1,6 +1,8 @@
 #--functions for analysing the Newbler 454ContigGraph.txt file--
 #--by RW on 060916 using modified version of previous functions I have written
+#--added RNG-related functions on 27016
 
+#--functions for generating and using basic data from the assembly at contig level
 extract.contig.data<-function()
 {
  #--assumes there is a file in ./ called "454ContigGraph.txt"
@@ -37,5 +39,4 @@ add.gc<-function(contigSummData,fastaFile="454LargeContigs.fna")
  summData<-data.frame(contigSummData[common,],gc=contigs.GC[common])
  return(summData)
 }
-
 
